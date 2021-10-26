@@ -23,18 +23,17 @@ your custom server. Please see \<\...\> when you're ready to dive in.
 First, you need to connect your Sowillo IoT board to WiFi. This can be
 done via the captive portal in a few steps:
 
--   Wait 1 minute after board reset and find `SWL\_fallback\_hotspot` WiFi network
--   Connect to `SWL\_fallback\_hotspot` with password `development`
+-   Wait 1 minute after board reset and find `SWL_fallback_hotspot` WiFi network
+-   Connect to `SWL_fallback_hotspot` with password `development`
 -   Open SignIn page from Android messages and enter Your
-    `WiFi\_SSID\_Name` and `Password`, then Save settings.
+    `WiFi_SSID_Name` and `Password`, then save settings.
 
 <img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100000000000026700000500E59A9EBD894C39B7.png" alt="iot-dashboard-2" height="600" >
 
 > **Pro hint:** You may want to connect to the MQTT server test.mosquitto.org and verify that the board sends data by monitoring it with an Android app.
 
 Begin by installing the [*IoT*](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod&hl=ru&gl=US) [*MQTT Panel*](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod&hl=ru&gl=US) application to your Android phone:
-
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100000000000047C0000047C33C19CB7FEF6B8C1.png" alt="iot-dashboard-3" height="600" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100000000000047C0000047C33C19CB7FEF6B8C1.png" alt="iot-dashboard-3" height="300" >
 
 We used this app as an example, you can use any MQTT tool you want, just
 search MQTT in Play Market/App Store.
@@ -42,16 +41,16 @@ search MQTT in Play Market/App Store.
 Create a connection to public broker test.mosquitto.org and fill in the
 following data:
 
--   **Connection name:** MyTestConnection
--   **Client ID:** MyTestClient
--   **Broker Web/IP address:** test.mosquitto.org
--   **Port number:** 1883
--   **Network protocol:** TCP
+-   Connection name: `MyTestConnection`
+-   Client ID: `MyTestClient`
+-   Broker Web/IP address: `test.mosquitto.org`
+-   Port number: `1883`
+-   Network protocol: `TCP`
 
 <img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100000000000026700000500FBB34566C5E5039F.png" alt="iot-dashboard-4" height="600" >
 
 Add a new dashboard to the Dashboard list and name it TestBoard.
-Then press the *Create* button.
+Then press the `Create` button.
 
 Each example FW uses its own unique six char prefix for state and
 command topics based on the last 3 bytes of the individual MAC address
@@ -61,16 +60,16 @@ For example, a unique MAC address `00:11:22:AA:BB:CC` generates MQTT
 topics that look like:
 
 ```
-energymeter\_hw\_300-aabbcc/switch/energymeter\_hw\_300\_reboot/state
-energymeter\_hw\_300-aabbcc/switch/energymeter\_hw\_300\_reboot/command
-energymeter\_hw\_300-aabbcc/switch/energymeter\_hw\_300\_relay1/state
-energymeter\_hw\_300-aabbcc/switch/energymeter\_hw\_300\_relay1/command
-energymeter\_hw\_300-aabbcc/switch/energymeter\_hw\_300\_relay2/state
-energymeter\_hw\_300-aabbcc/switch/energymeter\_hw\_300\_relay2/command
-energymeter\_hw\_300-aabbcc/sensor/energymeter\_hw\_300\_temperature\_1/state
-energymeter\_hw\_300-aabbcc/sensor/energymeter\_hw\_300\_temperature\_2/state
-energymeter\_hw\_300-aabbcc/sensor/energymeter\_hw\_300\_uptime\_human\_readable/state
-energymeter\_hw\_300-aabbcc/sensor/energymeter\_hw\_300\_current/state
+energymeter_hw_300-aabbcc/switch/energymeter_hw_300_reboot/state
+energymeter_hw_300-aabbcc/switch/energymeter_hw_300_reboot/command
+energymeter_hw_300-aabbcc/switch/energymeter_hw_300_relay1/state
+energymeter_hw_300-aabbcc/switch/energymeter_hw_300_relay1/command
+energymeter_hw_300-aabbcc/switch/energymeter_hw_300_relay2/state
+energymeter_hw_300-aabbcc/switch/energymeter_hw_300_relay2/command
+energymeter_hw_300-aabbcc/sensor/energymeter_hw_300_temperature_1/state
+energymeter_hw_300-aabbcc/sensor/energymeter_hw_300_temperature_2/state
+energymeter_hw_300-aabbcc/sensor/energymeter_hw_300_uptime_human_readable/state
+energymeter_hw_300-aabbcc/sensor/energymeter_hw_300_current/state
 ```
 
 > **Note:** You can find this information in the Captive Portal.
@@ -83,8 +82,8 @@ Open TestBoard and press the *AddPanel* button.
 <img src="https://github.com/Sowillo-Energy/sowillo-iot-board-docs/blob/main/docs/Pictures/10000000000002C6000005DBC75FACAB7C70CC68.png?raw=true" alt="add-a-test-log-panel" height="600">
 
 Select *Text Log* and fill the following fields:
-- **Panel Name:** Uptime
-- **Topic**: `energymeter\_hw\_300-aabbcc/sensor/energymeter\_hw\_300\_uptime\_human\_readable/state`
+- Panel Name: `Uptime`
+- Topic: `energymeter_hw_300-aabbcc/sensor/energymeter_hw_300_uptime_human_readable/state`
 
 <img src="https://github.com/Sowillo-Energy/sowillo-iot-board-docs/blob/main/docs/Pictures/100000000000026700000500B69FC9A39547D08B.png?raw=true" alt="add-a-test-log-panel-2" height="600">
 
