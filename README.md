@@ -10,6 +10,6 @@ This repo contains:
 
 ---
 Links:
-- [Sowillo IoT board firmware (latest version, .zip)]()
-- [Sowillo ESPHome configurations (latest version, .zip)]()
-- [Patched ESPHome  (latest version, .zip)]()
+- [Sowillo IoT board firmware (latest version, .zip)](https://rawcontent.sowillo.com/repository/binary-files-ext/latest/sowillo-firmware.zip)
+- [Sowillo ESPHome configurations (latest version, .zip)](https://rawcontent.sowillo.com/repository/binary-files-ext/latest/sowillo-esphome-configuration.zip)
+- [Patched ESPHome  (latest version, .zip)](https://rawcontent.sowillo.com/repository/binary-files-ext/latest/esphome-patched.zip)
