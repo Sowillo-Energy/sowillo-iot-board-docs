@@ -1,6 +1,6 @@
 # Sowillo IoT Board
 
-![image](https://shop.sowillo.com/wp-content/uploads/2021/09/Upper-i.png)
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/Assembly.png" alt="board-main" height="600" >
 
 This repo contains:
 
