@@ -12,11 +12,11 @@ Please contact us if you have any questions
 Chose the appropriate python version for your system on
 [*python.org*](https://www.python.org/downloads/) and download it.
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006490000038D85ABC3E1609F3025.png" alt="iot-dashboard" height="500">
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006490000038D85ABC3E1609F3025.png" style="width: 100%;" alt="iot-dashboard" height="250">
 
 Run the installer.
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064C0000038F37DD2D958B9AA5D9.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064C0000038F37DD2D958B9AA5D9.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 On the first installation dialog select the option `Add Python to
 PATH` or `Add Python to environment variables`, this step is
@@ -24,7 +24,7 @@ important, so far you will not be able to run `python` from windows
 console. If you missed it - you can add it manually later using `System
 Utility` in `Control Panel` on your Windows
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B00000390C7B4DBF655B7B1D6.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B00000390C7B4DBF655B7B1D6.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 In case if you forgot to add the option `Add Python to PATH` - you
 won't be able to run `python` command from your `Windows Command
@@ -41,7 +41,7 @@ Microsoft Store, or disable this shortcut from Settings
     python.exe
 2.  Right-click on "This PC\'\' and go to "Properties".
 
-    <img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100000000000019A000001CD05E50336313E2B2A.png" alt="iot-dashboard" height="500" >
+    <img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100000000000019A000001CD05E50336313E2B2A.png" style="width: 100%;" alt="iot-dashboard" height="500" >
 
 1.  Click on the "Advanced system settings" in the menu on the left.
 2.  Click on the Environment Variables button o​n the bottom right.
@@ -63,14 +63,14 @@ not included to upstream. For now we providing to the user the [patched
 version](https://rawcontent.sowillo.com/repository/binary-files-ext/latest/esphome-patched.zip) of ESPHome and looking forward for our changes will be included
 to the ESPHome upstream.
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006490000038DD294F636B497697A.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006490000038DD294F636B497697A.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 ## 3. Install ESPHome
 
 Unpack the ESPHome package to some directory. In this tutorial we'll
 use the`C:\esphome` path.
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064A0000038DCE675708FE9E82B1.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064A0000038DCE675708FE9E82B1.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 Open the Windows Command Prompt and navigate to the esphome directory.
 Note: this Command Prompt window must be opened *after* you installed
@@ -80,9 +80,9 @@ python, *not before.*
 cd \esphome
 ```
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064C0000038D8E423BAF1C3731B1.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064C0000038D8E423BAF1C3731B1.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006490000038E9424F0D234BD1D83.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006490000038E9424F0D234BD1D83.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 Now we'll create the python virtualenv for ESPHome. Don't worry, all
 further steps will not affect your system.
@@ -91,7 +91,7 @@ further steps will not affect your system.
 python -m venv esphome-venv
 ```
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B0000038F188D949EDBE97BF8.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B0000038F188D949EDBE97BF8.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 This will create a `esphome-venv` directory inside `esphome` with
 python virtual environment. Let's activate it:
@@ -100,7 +100,7 @@ python virtual environment. Let's activate it:
 .\esphome-venv\Scripts\activate
 ```
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006480000038D0AF8A264E279940D.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006480000038D0AF8A264E279940D.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 You may want to see the environment name at the beginning of the command
 prompt.
@@ -118,7 +118,7 @@ pip install -e .
 Flashing dev board under windows requires the cp2102 win driver with
 enumerator, which could be downloaded by [*link*](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers_with_Serial_Enumeration.zip).
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B000003904E3378BE99D6EBFA.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B000003904E3378BE99D6EBFA.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 ## 4. Build firmware
 
@@ -137,7 +137,7 @@ in wifi `wifi_ssid` and `wifi_password` fields that allow the
 board to connect to your wifi. Also you may want to configure
 `mqtt_broker` and `mqtt_port` on your mqtt broker.
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B0000038C5DEC198220789ACE.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064B0000038C5DEC198220789ACE.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 Use the virtual environment that you created in the step above
 (esphome-venv). If you already closed the Windows Command Prompt - just
@@ -157,11 +157,11 @@ Finally you can build the configuration that you want:
 esphome swlbox-202-thermostat.yaml compile
 ```
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006470000038A2C5D0AC80C17BF39.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/10000201000006470000038A2C5D0AC80C17BF39.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064C0000038EF97D5468543750EB.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064C0000038EF97D5468543750EB.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
-<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064F0000038EC2D1692DF947BF58.png" alt="iot-dashboard" height="500" >
+<img src="https://raw.githubusercontent.com/Sowillo-Energy/sowillo-iot-board-docs/main/docs/Pictures/100002010000064F0000038EC2D1692DF947BF58.png" style="width: 100%;" alt="iot-dashboard" height="250" >
 
 
 ## 5. Flash firmware
